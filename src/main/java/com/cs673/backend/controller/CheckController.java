@@ -20,6 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 @RestController
 //@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://parking-lot-management-s-9d929.firebaseapp.com")
 public class CheckController {
     @Autowired
     private ParkInfoService parkinfoservice;

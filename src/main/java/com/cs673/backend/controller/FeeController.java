@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://parking-lot-management-s-9d929.firebaseapp.com")
 public class FeeController {
 
   @Autowired

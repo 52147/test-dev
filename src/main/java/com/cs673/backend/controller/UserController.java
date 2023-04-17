@@ -23,8 +23,9 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/user")
+@CrossOrigin(origins = "https://parking-lot-management-s-9d929.firebaseapp.com")
 public class UserController {
     @Resource
     private UserService userService;

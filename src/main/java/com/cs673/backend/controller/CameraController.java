@@ -16,7 +16,8 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://parking-lot-management-s-9d929.firebaseapp.com")
 public class CameraController {
     private final List<SseEmitter> emitters = new CopyOnWriteArrayList<>();
     private final CameraService cameraService;
